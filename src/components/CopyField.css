@@ -1,0 +1,25 @@
+.copy-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.copy-field__label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.copy-field__row {
+  display: flex;
+  gap: 8px;
+}
+
+.copy-field__row input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--mono);
+  font-size: 13px;
+}

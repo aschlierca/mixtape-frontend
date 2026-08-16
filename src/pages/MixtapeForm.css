@@ -1,0 +1,43 @@
+.mixtape-form h1 {
+  margin-bottom: 20px;
+}
+
+.mixtape-form__layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 380px) 1fr;
+  gap: 28px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 720px) {
+  .mixtape-form__layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mixtape-form__preview {
+  position: sticky;
+  top: 20px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.mixtape-form__hint {
+  text-align: center;
+}
+
+.mixtape-form__fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.field__label-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  display: block;
+  margin-bottom: 8px;
+}

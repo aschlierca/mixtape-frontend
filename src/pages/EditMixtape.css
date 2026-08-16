@@ -1,0 +1,22 @@
+.edit-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.edit-header h1 {
+  margin: 0;
+}
+
+.edit-code-prompt {
+  max-width: 420px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.edit-code-prompt .inline-form {
+  justify-content: center;
+  margin-top: 12px;
+}

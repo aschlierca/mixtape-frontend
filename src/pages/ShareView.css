@@ -1,0 +1,45 @@
+.share-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.share-view h1 {
+  margin-top: 8px;
+}
+
+.share-view__note {
+  max-width: 480px;
+  font-family: var(--heading);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--text-h);
+  white-space: pre-wrap;
+}
+
+.share-view__songs {
+  width: 100%;
+  max-width: 480px;
+  text-align: left;
+  margin-top: 12px;
+}
+
+.tracklist {
+  margin: 0;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tracklist a {
+  color: var(--text-h);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.tracklist a:hover {
+  color: var(--accent);
+}
